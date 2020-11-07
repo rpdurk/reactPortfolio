@@ -1,25 +1,21 @@
-import React from "react";
-import pgbc from "../images/Images/pgbc.png";
-import { MDBJumbotron, MDBContainer, MDBRow, MDBCol, MDBCardTitle } from "mdbreact";
+import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Jumbotron from 'react-bootstrap/Jumbotron';
 
-const JumbotronHomePage = () => {
+export const HomeJumbotron = () => {
   return (
-    <MDBContainer>
-      <MDBRow>
-        <MDBCol>
-          <MDBJumbotron style={{ padding: 0 }}>
-            <MDBCol className="text-white text-center py-5 px-4 my-5" style={{ backgroundImage: `url(${pgbc})` }}>
-              <MDBCol className="py-5">
-                <MDBCardTitle className="h1-responsive pt-3 m-5 font-bold">Hi, my name is Ryan Durk</MDBCardTitle>
-                <p className="mx-5 mb-5">Explore my portfolio.
-                </p>
-              </MDBCol>
-            </MDBCol>
-          </MDBJumbotron>
-        </MDBCol>
-      </MDBRow>
-    </MDBContainer>
-  )
-}
 
-export default JumbotronHomePage;
+<Jumbotron fluid>
+  <Container>
+    <h1>Fluid jumbotron</h1>
+    <p>
+      This is a modified jumbotron that occupies the entire horizontal space of
+      its parent.
+    </p>
+  </Container>
+</Jumbotron>
+
+  )
+};
+
+export default HomeJumbotron;
