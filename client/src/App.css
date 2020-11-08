@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.headerBG {
+  background: url('./Images/pgbc.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 800px;
+  display: grid;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.welcomeHeader {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.home-about-me {
+  display: grid;
+  grid-gap: 40px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+@media(min-width:100px){
+  .home-about-me {
+    grid-template-columns: 1fr;
+    background-color: red;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media(min-width:700px){
+  .home-about-me {
+    grid-template-columns: 1fr 1fr;
+    background-color: blue;
   }
+}
+
+img {
+  width: 100%;
 }

@@ -11,18 +11,16 @@ import landingPortfolio from "../Images/landingPortfolio.jpg";
 
 export const HomeAboutMe = () => {
   return (
-    <Container>
-      <Row>
-        <Col md={4}>
-        <img src={durkPortrait} className="img-fluid" alt="road into the mountains" />
-        </Col>
-        <Col md={4}>
-          <h3>About me</h3>
+      <div className="home-about-me">
+        <div>
+          <img src={durkPortrait}/>
+        </div>
+        <div>
+        <h3>About me</h3>
           <p> I am a higher education professional, researcher, strength coach, and learning web development.  I reside in the San Francisco Bay Area.   </p>
-          <Button variant="primary" href="#">Learn More</Button>{' '}
-        </Col>
-      </Row>
-    </Container>
+          <a class="btn btn-primary" href="/about"><button>Learn More</button></a>
+        </div>
+      </div>
     );
   }
   
