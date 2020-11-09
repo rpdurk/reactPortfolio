@@ -10,6 +10,9 @@ import './App.css';
 // pages
 import Home from './pages/Home';
 import About from './pages/About';
+// import Portfolio from './pages/Portfolio';
+import Research from './pages/Research';
+// import Contact from './pages/Contact';
 
 
 function App() {
@@ -17,9 +20,9 @@ function App() {
     <Router>
       <Route exact path="/" component={Home}/>
       <Route exact path="/about" component={About}/>
-      {/*<Route exact path="/portfolio" component={portfolio}/>*/}
-      {/*<Route exact path="/research" component={research}/>*/}
-      {/*<Route exact path="/contact" component={contact}/>*/}
+      {/*<Route exact path="/portfolio" component={Portfolio}/>*/}
+      <Route exact path="/research" component={Research}/>
+      {/*<Route exact path="/contact" component={ontact}/>*/}
     </Router>
   );
 }
