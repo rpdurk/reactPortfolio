@@ -1,12 +1,15 @@
 import React from 'react';
-import HomeJumbotron from '../components/homeJumbotron';
-import { HomeAboutMe } from '../components/homePreviews';
+import { GeneralNavBar } from '../components/navbar';
+import { AboutMe } from '../components/aboutMe';
+import { GeneralFooter } from '../components/footer';
+
 
 function About() {
   return (
     <>
-      <HomeJumbotron />
-      <HomeAboutMe />
+      <GeneralNavBar />
+      <AboutMe />
+      <GeneralFooter />
     </>
   );
 }
