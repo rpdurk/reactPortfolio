@@ -1,11 +1,9 @@
 import React from "react";
-import Card from 'react-bootstrap/Card'
-import CardColumns from 'react-bootstrap/CardColumns';
+// import Card from 'react-bootstrap/Card'
+// import CardColumns from 'react-bootstrap/CardColumns';
 import vo2max from '../Images/vo2max.jpg';
 import wser2019 from '../Images/wser2019.jpg';
 import thaiIslands from '../Images/thaiislands.jpg';
-import { Button } from 'react-bootstrap'; 
-
 
 export const ResearchPage = () => {
   return (
