@@ -16,9 +16,9 @@ function App() {
     <Router>
       <Route exact path="/" component={Home}/>
       <Route exact path="/about" component={About}/>
-      {/*<Route exact path="portfolio" component={portfolio}/>*/}
-      {/*<Route exact path="research" component={research}/>*/}
-      {/*<Route exact path="contact" component={contact}/>*/}
+      {/*<Route exact path="/portfolio" component={portfolio}/>*/}
+      {/*<Route exact path="/research" component={research}/>*/}
+      {/*<Route exact path="/contact" component={contact}/>*/}
     </Router>
   );
 }
