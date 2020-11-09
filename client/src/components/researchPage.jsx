@@ -10,8 +10,8 @@ export const ResearchPage = () => {
     <>
     <section className="text-center">
         <div class="col-md">
-            <h1 class="projects">Latest Research</h1>
-            <p>Check out some of the things we are researching</p>
+            <h1 class="projects" style={{fontSize: 36}}>Latest Research</h1>
+            <p style={{fontSize: 26}}>Check out some of the things we are researching</p>
         </div>
     </section>
     <br />

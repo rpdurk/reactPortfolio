@@ -13,8 +13,8 @@ export const PortfolioPage = () => {
     <>
     <section className="text-center">
         <div class="col-md">
-            <h1 class="projects">Latest Projects</h1>
-            <p>Here are the latest projects I have been working on.</p>
+            <h1 class="projects" style={{fontSize: 36}}>Latest Projects</h1>
+            <p style={{fontSize: 26}}>Here are the latest projects I have been working on.</p>
         </div>
     </section>
     <br />
