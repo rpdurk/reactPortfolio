@@ -10,8 +10,13 @@
   justify-content: center;
 }
 
+.navbar {
+  margin-bottom: 0px;
+}
+
 .welcomeHeader {
   font-size: 36px;
+  font-weight: bold;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.5);
   padding: 45px;
@@ -19,6 +24,7 @@
 
 .welcomePTag {
   font-size: 28px;
+  font-weight: normal;
 }
 
 .home-about-me,
@@ -30,6 +36,14 @@
   padding: 40px;
   max-width: 1200px;
   margin: auto;
+  font-size: 18px;
+}
+.home-about-me-title,
+.home-portfolio-preview-title,
+.home-research-title,
+.home-contact-preview-title {
+  font-weight: bold;
+  font-size: 22px;
 }
 
 @media(min-width:100px){
@@ -38,7 +52,7 @@
   .home-research,
   .home-contact-preview {
     grid-template-columns: 1fr;
-    background-color: red;
+    /* background-color: red; */
   }
 }
 
@@ -48,7 +62,7 @@
   .home-research,
   .home-contact-preview {
     grid-template-columns: 1fr 1fr;
-    background-color: blue;
+    /* background-color: blue; */
   }
 }
 
@@ -56,27 +70,12 @@ img {
   width: 100%;
 }
 
-.myButton {
-	box-shadow:inset 0px 1px 0px 0px #97c4fe;
-	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
-	background-color:#3d94f6;
-	border-radius:6px;
-	border:1px solid #337fed;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #1570cd;
+.nav {
+  font-weight: bold;
+  font-size: 22px;
 }
-.myButton:hover {
-	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
-	background-color:#1e62d0;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
+
+.navLink {
+  font-weight: normal;
+  font-size: 18px;
 }
