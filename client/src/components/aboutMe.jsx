@@ -1,31 +1,74 @@
 import React from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
+import Card from 'react-bootstrap/Card'
+import CardGroup from 'react-bootstrap/CardGroup';
+import { Button } from 'react-bootstrap'; 
 
 
 export const AboutMe = () => {
   return (
     <>
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="mr-auto">
-          <Nav.Link href="/" className="footerLink">Home</Nav.Link>
-          <Nav.Link href="/about" className="footerLink">About Me</Nav.Link>
-          <Nav.Link href="/portfolio" className="footerLink">Portfolio</Nav.Link>
-          <Nav.Link href="/research" className="footerLink">Research</Nav.Link>
-        </Nav>
-        <Nav>
-          <Nav.Link eventKey={2} href="/contact" className="navLink">
-            Contact Me:
-          </Nav.Link>
-          <Nav.Link href="https://www.linkedin.com/in/ryan-durk/" className="footerLink">LinkedIn</Nav.Link>
-          <Nav.Link href="https://github.com/rpdurk" className="footerLink">Github</Nav.Link>
-          <Nav.Link href="https://www.facebook.com/Ryan.P.Durk" className="footerLink">Facebook</Nav.Link>
-          <Nav.Link href="https://www.instagram.com/ryanpdurk/?hl=en" className="footerLink">Instagram</Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+    <Card className="text-center" border="light">
+      <Card.Body>
+        <Card.Title>Mission</Card.Title>
+        <Card.Text>
+          Make the world a healthier place.
+        </Card.Text>
+      </Card.Body>
+    </Card>
+    <br />
+    <Card className="text-center" border="light" bg='dark' text='white'>
+      <Card.Title>Background</Card.Title>
+    </Card>
+    <CardGroup>
+      <Card border="light" bg='dark' text='white'>
+        {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
+        <Card.Body className="text-center">
+          <Card.Title>Lecturer</Card.Title>
+          <Card.Text>
+            I have taught over 7 unique university level courses.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+      <br />
+      <Card border="light" bg='dark' text='white'>
+        {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
+        <Card.Body className="text-center">
+          <Card.Title>Researcher</Card.Title>
+          <Card.Text>
+            I am currently researching the Gut-Muscle-Brain-Axis, breath, and virtual reality as a mode for exercise.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+      <br />
+      <Card border="light" bg='dark' text='white'>
+        {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
+        <Card.Body className="text-center">
+          <Card.Title>Strength and Conditioning Coach</Card.Title>
+          <Card.Text>
+            Currently the Head Strength Coach for a Division II NCAA program.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </CardGroup>
+    <br />
+    <Card className="text-center" border="light">
+      <Card.Body>
+        <Card.Title>Web Development</Card.Title>
+        <Card.Text>
+          In search of more scalable solutions to impact health outcomes, I have begun to learn web development.
+        </Card.Text>
+        <Button variant="dark">Learn More</Button>
+      </Card.Body>
+    </Card>
+    <br />
+    <Card className="text-center" border="light" bg='dark' text='white'>
+      <Card.Body>
+        <Card.Title>More About Me</Card.Title>
+        <Card.Text>
+          I love traveling, and seeing new places.  All of the pictures used here are experiences I have had the privilege to have.
+        </Card.Text>
+      </Card.Body>
+    </Card>
     </>
     );
   };

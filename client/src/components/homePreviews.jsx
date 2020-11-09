@@ -25,7 +25,7 @@ export const HomePortfolioPreview = () => {
     <div className="home-portfolio-preview">
         <div>
         <h3 className="home-portfolio-preview-title">Portfolio</h3>
-          <p> I am currently working on improving my understanding of web development to pursue scale-able health solutions.</p>
+          <p> I am currently working on improving my understanding of web development to pursue scalable health solutions.</p>
           <a class="btn btn-primary" href="/portfolio"><Button>Learn More</Button></a>
         </div>
         <div>
