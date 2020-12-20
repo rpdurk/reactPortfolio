@@ -45,7 +45,7 @@ Visit the live website at [Here](https://rpdurk-react-portfolio.herokuapp.com/)
 
 The primary purpose of this is to showcase my web development work.
 
-1. Search a Book
+1. Home Page
     ![Type a book](./Images/portfolio.png)
 
 ## Contributing
